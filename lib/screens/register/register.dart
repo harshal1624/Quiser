@@ -15,7 +15,7 @@ class RegisterScreen extends StatelessWidget {
             children: [
               Container(
                 alignment: Alignment.centerLeft,
-                padding: const EdgeInsets.symmetric(horizontal: 40),
+                padding: const EdgeInsets.fromLTRB(40, 40, 0, 0),
                 child: const Text('REGISTER',style: TextStyle(
                     fontWeight: FontWeight.bold,
                     color: Color(0xFF2661FA),
