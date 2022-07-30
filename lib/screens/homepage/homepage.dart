@@ -30,7 +30,7 @@ class _homepageState extends State<homepage> {
                   child: Column(
                     children: [
                       Container(
-                        margin: EdgeInsets.only(top: 5),
+                        margin: EdgeInsets.only(top: 10),
                         alignment: Alignment.centerRight,
                         child: ElevatedButton(onPressed: (){},
                           style: ElevatedButton.styleFrom(
@@ -62,7 +62,7 @@ class _homepageState extends State<homepage> {
                       )
                     ],
                   ),
-                  height: size.height/3.5,
+                  height: size.height/3,
                   width: size.width,
                   decoration: BoxDecoration(
                       color: Color(0xff041E42),
