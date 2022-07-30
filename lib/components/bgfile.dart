@@ -20,7 +20,7 @@ class bgForAll extends StatelessWidget {
         children: [
           Container(
             decoration: const BoxDecoration(
-              image: DecorationImage(image: AssetImage("assets/images/2691.png"),fit: BoxFit.cover)
+              image: DecorationImage(image: AssetImage("assets/images/top1.png"),fit: BoxFit.cover)
             ),
           ),
           child,
